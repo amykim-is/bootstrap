@@ -1,0 +1,61 @@
+.signin-wrap{
+    width: 530px;
+    height: 541px;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border:none;
+    border-radius: 30px;
+    background:url(img/nigntsky.jpg);
+    background-position:center;
+    
+}
+.signin-content{
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.signin-title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px 0 30px 0;
+    color: white;
+}
+.inpit-size{
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 15px 15px 13px;
+    border: none;
+    outline: 0;
+}
+.forgottext{
+    font-size: 15px;
+    display: block;
+    color: #c0c0c0;
+    font-weight: 700;
+    text-align: end;
+    
+}
+.strong{
+    color: white;
+    font-weight: 700;
+}
+.signbtn{
+    width: 100%;
+    margin: 20px 0;
+    padding: 13px 0;
+
+}
+.Registration{
+    display: block;
+    text-align: center;
+}

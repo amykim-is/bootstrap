@@ -1,0 +1,78 @@
+.item-name{
+    text-transform: uppercase;
+    
+}
+.item-name-bold{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.footer-grid {
+    background-color: white;
+    width: 100%;
+ 
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 1fr;
+    gap: 0px;
+    grid-template-areas:
+      ". . .";
+}
+.f-center1, .f-center2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.f-text2-logo1 {
+    padding-bottom: 5px;
+}
+.f-text2-logo2{
+    padding-bottom: 49px;
+}
+.f-text-1, .f-text-3, .f-text2-1, .f-text2-2, .f-text3-1 {
+    color: 484a4e;
+    font-size: 18px;
+    font-weight: 1000;
+    
+}
+.f-text-2, .f-text3-2{
+    font-size: 13px;
+    color: #7e848f;
+}
+.f-logo2 {
+    
+    align-items: center;
+}
+.f-logo-1, .f-logo-2 {
+    display: inline;
+    height: 60px;
+    padding: 10px;
+}
+.f-left, .f-right{
+    background-color: white
+    
+}
+
+.textli{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+.f-cookie{
+    font-size: 12px;
+    background-color: white;
+    line-height: 36px;
+    text-align: center;
+    color: #7e848f ;
+}
+.f-notice{
+    background-color:  white;
+    color:#1d78f5;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+}
+.spancolor {
+    color: black
+}

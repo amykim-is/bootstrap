@@ -1,0 +1,112 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.acegame{
+    background:url(img/bg2.jpg) no-repeat;
+    background-size:cover;   
+    background-position:center;
+    width: 100%;
+    
+}
+.main-center{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+
+   
+}
+.menu-text{
+    font-weight: 700;
+}
+.head-wrap{
+    padding:20px;
+    margin-left: 23px;
+    margin-right: 23px;
+    
+}
+.logoimg{
+    margin-right: auto;
+}
+.bg{
+    background: rgba(255, 255, 255, 0.3);
+    padding: 35px;
+    border-radius: 15px;
+  
+}
+.card-position{
+    display: inline-block;
+    position: relative;
+
+}
+
+.menu-card{
+    height: 200px;
+    
+}
+
+.footer-grid {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    margin-top: 35px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+.f-center1, .f-center2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.f-text2-logo1 {
+    padding-bottom: 5px;
+}
+.f-text2-logo2{
+    padding-bottom: 49px;
+}
+.f-text-1, .f-text-3, .f-text2-1, .f-text2-2, .f-text3-1 {
+    color: #484a4e;
+    font-size: 18px;
+    font-weight: 1000;
+
+    
+}
+.f-text-2, .f-text3-2{
+    font-size: 13px;
+    color: #7e848f;
+    width: 100%;
+}
+.f-logo2 {
+    
+    align-items: center;
+}
+.f-logo-1, .f-logo-2 {
+    display: inline;
+    height: 60px;
+    padding: 10px;
+}
+
+
+.textli{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+.f-cookie{
+    font-size: 12px;
+    background-color: white;
+    line-height: 36px;
+    text-align: center;
+    color: #7e848f ;
+}
+.f-notice{
+    background-color:  white;
+    color:#1d78f5;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+}
+.spancolor {
+    color: black
+}

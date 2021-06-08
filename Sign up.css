@@ -1,0 +1,211 @@
+html, body {margin: 0; padding: 0;}
+.manu {
+    top:0;
+    background-color: #292a2c;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    z-index: 999;
+}
+.grid1{
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.grid2 {
+    padding-right: 100px;
+    display: flex;  
+    height: auto;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.logo {
+    background: url(img/gnb_ace_logo.png) no-repeat;
+    width:78px;
+    height: 60px;
+    background-size: 80%;
+    background-position: center;
+}
+.minimenu1, .minimenu2{
+    margin: 10px;
+    font: inherit;
+    font-size: 16px;
+    color: #e6e6e6;
+    font-weight: bold;
+}
+.menu_btn{
+    margin-right: 10px;
+    border: 0;
+    background-color: dodgerblue;
+    color: white;
+    width: 80px;
+    height: 36px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    outline: 0;
+}
+
+button:last-child{
+    margin-right: 0;
+}
+
+.signup-bg{
+    margin-top: 60px;
+    background-color: #212224;
+}
+.singup-wrap{
+    width: 720px;
+    margin: 0 auto;
+    position: relative;
+}
+.signup-maintext{
+    padding: 40px 0;
+    font-size: 36px;
+    color: #1d78f5;
+    text-align: center;
+    font-weight: 700;  
+}
+.country-main{
+    background-color: #303235;
+    padding: 36px 24px
+}
+.country-text{
+    color: #7e848f;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.select-country{
+    margin-top: 1.5em;
+}
+.select, .input-email, .input-pw, .input-name, .input-referral{
+    border: 0;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 100%;
+    height: 46px;
+    outline: 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.password{
+    margin-top: 40px;
+}
+.input-conpw{
+    border: 0;
+    margin-top: 40px;
+    border-radius: 4px;
+    width: 100%;
+    height: 46px;
+    outline: 0;
+    padding-left: 20px;
+    box-sizing: border-box;  
+}
+.signup-bonus{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.smalltext1{
+    color: #1d78f5;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.smalltext2, .smalltext3{
+    color: #1d78f5;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 56px;
+}
+.email-check{
+    margin-top: 30px;
+    padding-bottom: 20px;    
+}
+.emailtext{
+    display: inline;
+    color: white;
+    
+}
+.footer-grid {
+    background-color: #484a4e;
+    width: 100%;
+ 
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 1fr;
+    gap: 0px;
+    grid-template-areas:
+      ". . .";
+}
+.f-center1, .f-center2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;    
+    gap: 20px;
+}
+
+.f-text2-logo1 {
+    padding-bottom: 5px;
+}
+.f-text2-logo2{
+    padding-bottom: 49px;
+}
+.f-text-1, .f-text-3, .f-text2-1, .f-text2-2, .f-text3-1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 1000;
+    
+}
+.f-text-2, .f-text3-2{
+    font-size: 13px;
+    color: #7e848f;
+}
+.f-logo2 {
+    
+    align-items: center;
+}
+.f-logo-1, .f-logo-2 {
+    display: inline;
+    height: 60px;
+    padding: 10px;
+}
+.f-left, .f-right{
+    background-color: #484a4e;
+    
+}
+.hr{
+    margin: 1em 0;
+    border: 0;
+    border-top: 1px solid gray;
+}
+.textli{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+.f-cookie{
+    font-size: 12px;
+    background-color: #3a3d42;
+    line-height: 36px;
+    text-align: center;
+    color: #7e848f ;
+}
+.f-notice{
+    background-color:  #212224;
+    color:#1d78f5;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+}
+.spancolor {
+    color: white;
+}
